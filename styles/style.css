@@ -1,0 +1,65 @@
+body
+{
+    margin: 0;
+}
+
+h1
+{
+    font-family: "Segoe UI";
+    font-weight: 400;
+    text-align: center;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.imgs
+{
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    margin: auto;
+    display: block;
+}
+
+p
+{
+    text-align: justify;
+    margin-left: 250px;
+    margin-right: 250px;
+    font-size: 16px;
+    font-family: georgia;
+}
+
+h2
+{
+    font-size: 18px;
+    font-family: "Segoe UI";
+    text-align: center;
+    font-weight: 400;
+    background-color: lightblue;
+    color: black;
+    padding: 10px 20px;
+}
+
+@media only screen and (max-width: 800px)
+{
+    p
+    {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    h1
+    {
+        font-size: 24px;
+    }
+    h2
+    {
+        font-size: 18px;
+        font-family: "Segoe UI";
+        text-align: center;
+        font-weight: 400;
+        background-color: lightblue;
+        color: black;
+        padding: 10px 20px;
+    }
+}
